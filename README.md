@@ -37,9 +37,9 @@ CREATE UNIQUE INDEX product_category ON ProductCategory(products_id, category_id
 
 ### Заполняем таблицы
 
-INSERT INTO Products VALUES('Бумага'), ('Ножницы'), ('Ложка');
-INSERT INTO Category VALUES('Канцелярия'), ('Столовые приборы');
-INSERT INTO ProductCategory VALUES(1, 1), (2, 1), (3, 2);
+INSERT INTO Products VALUES('Нож'), ('Карандаш'), ('Ложка'), ('Ручка');
+INSERT INTO Category VALUES('Канцелярия'), ('Кухонные приборы'), ('Столовые приборы');
+INSERT INTO ProductCategory VALUES(1, 2), (2, 1), (3, 3), (4, 1);
 
 ### Запрос - решение
 
